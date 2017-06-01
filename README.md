@@ -23,7 +23,7 @@ Our simulator has only one ".java" file, when start to simulate, use "javac" com
 
 The program plot.R is a graph generator written by R language’s ggplot2 engine. It reads in the outputs of our simulator, rebuilds the data structure and produces difference against different values of M, average latency against different values of M for each source.  hat’s more, according to our several simulations, after selecting the normal quantiles, we plot 90% confidence interval in the graphs. To run the graph generator, use R and set work path and just run the plot.R script.
 
-> For more about this project, see <a href="https://github.com/rexwangcc/"></a>.
+> For more about this project, see <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project0/pa0_report.pdf">Project Report</a> and <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project0/pa0_requirements.pdf">Project Requirement</a>.
 
 <a name="sec1"></a>
 <h3>Project 1 - Using an Echo Application to Measure TCP Performance</h3>
@@ -71,7 +71,7 @@ rtt or tput)
 - In another hand, when using Server2, it required you to appoint a port number to run
 on, like: 58669
 
-> For more about this project, see <a href="https://github.com/rexwangcc/"></a>.
+> For more about this project, see <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project1/pa1_report.pdf">Project Report</a> and <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project1/pa1_requirements.pdf">Project Requirement</a>.
 
 <a name="sec2"></a>
 <h3>Project 2 - Implementing Reliable Transport Protocols</h3>
@@ -89,7 +89,7 @@ we created separate folders for each transport method. Set Go-Back-N as example,
 Additionally, we produced a graph generator to produce statistical images to show our simulation results. This generator is made by R language and used `ggplot2`, `lattice` R packages to plot. To run this generator, it is important to revise the `setwd` function:
 `setwd ("~/Google Drive/courses/Networks/PHW2/Graph Generator")` to your own workspace and copy data files to the same directory. The result images should be produced in the same directory.
 
-> For more about this project, see <a href="https://github.com/rexwangcc/"></a>.
+> For more about this project, see <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project2/pa2_report.pdf">Project Report</a> and <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project2/pa2_requirements.pdf">Project Requirement</a>.
 
 <a name="sec3"></a>
 <h3>Project 3 - Implementing Routing Protocols</h3>
@@ -104,7 +104,6 @@ This project mainly implements 3 different routing protocols in Java:
 we created separate folders for each routing method. Set Basic DV Routing as example, since `main()` function in `Project3.java`, to compile, use `javac *.java` to compile all the java files. To start, use `java Project3`. The compilation process of the other routing algorithm is very similar except `cd` in different directories.
 (Also note that our default pseudorandom seed is 3322)
 
-> For more about this project, see <a href="https://github.com/rexwangcc/"></a>.
-
+> For more about this project, see <a href="https://github.com/rexwangcc/ComputerNetworks/blob/master/Project3/pa3_report.pdf">Project Report</a>.
 
 
